@@ -4,19 +4,11 @@ Tính năng chính:
 - Upload ảnh hoặc video đầu vào (ZIP hoặc MP4).
 - Tự động chạy COLMAP để tạo cấu trúc 3D.
 - Hiển thị hình ảnh kèm xoay góc nhìn camera.
-- Tích điểm 2D trực tiếp trên ảnh.
 - Xuất dữ liệu điểm dưới định dạng `.ply`.
 - Tích hợp sẵn NeRF/Instant-NGP để tái tạo 3D nâng cao.
 
-Cấu trúc thư mục:
-- Source
--- uploads
--- gui.py
--- human.png
--- README.md
-
 Cài đặt
-- Local: --gui.py
+- Local: --local.py
          --Chạy pip install + tên thư viện --> Thêm các thư viện cần thiết
          -- Cấu hình đường dẫn COLMAP: COLMAP = "C:\\Colmap\\COLMAP.bat"
 
@@ -44,4 +36,4 @@ Tác giả:
 Phạm Khánh Hà Mi
 mipham151008@gmail.com
 
-Link Colab: https://colab.research.google.com/drive/1Eyvl1M7Ij7c7y5VRewUgREZuFh8A9y9b?usp=sharing
+Link Colab: [https://colab.research.google.com/drive/1Eyvl1M7Ij7c7y5VRewUgREZuFh8A9y9b?usp=sharing](https://colab.research.google.com/drive/1ttvtl7Ib36ty6JhYnxSg-TXQJKBK47Ng#scrollTo=V4I1xDuS3CzT)
